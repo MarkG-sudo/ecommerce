@@ -33,7 +33,7 @@ nav a {
 }
 
 .hero {
-    background-image: url(/assets/images/shop-hero-bg.jpg);
+    background-image: url(../images/shop-hero-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -89,7 +89,7 @@ nav a {
 }
 
 .a-i {
-    background-image: url(/assets/images/model-3.jpg);
+    background-image: url(../images/model-3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -99,7 +99,7 @@ nav a {
 }
 
 .b-i {
-    background-image: url(/assets/images/model\ -\ 2.jpg);
+    background-image: url(../images/model\ -\ 2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -109,7 +109,7 @@ nav a {
 }
 
 .c-i {
-    background-image: url(/assets/images/model-3.jpg);
+    background-image: url(../images/model-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
