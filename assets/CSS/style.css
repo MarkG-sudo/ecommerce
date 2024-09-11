@@ -18,10 +18,20 @@ nav {
 
 }
 
+/* .logo {
+    width: 20px;
+    height: 10px;
+} */
+
 .nav-items {
     display: flex;
     gap: 30px;
+    padding-top: 20px;
 
+}
+
+.nav-icons {
+    padding-top: 20px;
 }
 
 .list-items {
@@ -30,6 +40,7 @@ nav {
 
 nav a {
     text-decoration: none;
+    color: black;
 }
 
 .hero {
