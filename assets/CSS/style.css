@@ -181,6 +181,8 @@ nav a {
 .gamma-section {
     margin-top: 10%;
     height: 60vh;
+    width: 120%;
+    margin-left: -100px;
 }
 
 .gamma-container {
