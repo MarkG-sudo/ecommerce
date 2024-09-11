@@ -32,8 +32,13 @@ nav {
 
 .nav-icons {
     padding-top: 20px;
+    gap: 30px;
+    margin-right: 30px;
 }
 
+.icons-1 {
+    padding: 10px;
+}
 .list-items {
     list-style-type: none;
 }
@@ -87,11 +92,11 @@ nav a {
 }
 
 .main-section {
-    margin: 100px;
+    margin-top: 10%;
 }
 
 .alpha-section {
-    width: 96%;
+    margin: 100px;
 }
 
 
@@ -104,8 +109,14 @@ nav a {
     height: 300px;
 }
 
+.ac-section a {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: small;
+}
+
 .a-i {
-    background-image: url(../images/model-3.jpg);
+    background-image: url(../images/model-a.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -115,7 +126,7 @@ nav a {
 }
 
 .b-i {
-    background-image: url(../images/model\ -\ 2.jpg);
+    background-image: url(../images/model-b.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -125,7 +136,7 @@ nav a {
 }
 
 .c-i {
-    background-image: url(../images/model-1.jpg);
+    background-image: url(../images/model-c.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -135,8 +146,9 @@ nav a {
 }
 
 .beta-section {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    /* margin-top: 10%;
+    margin-bottom: 10%; */
+    margin: 100px;
 }
 
 .beta-container1 {
@@ -152,7 +164,7 @@ nav a {
 
 
 .beta-hr {
-    padding: 30px;  
+    padding: 30px;
     font-family: "Poppins";
     font-size: medium;
 }
@@ -189,14 +201,14 @@ nav a {
     height: fit-content;
     width: 100%;
     margin: 0;
-    
+
 }
 
 .gamma-container {
     display: flex;
     width: 100%;
     padding: 30px;
-    gap: 10px ;
+    gap: 10px;
     width: 100%;
 }
 
@@ -216,7 +228,7 @@ nav a {
     font-size: 1rem;
     line-height: 1.6;
     color: rgb(160, 153, 153);
-    margin-bottom:1rem ;
+    margin-bottom: 1rem;
 }
 
 .text-gamma button {
@@ -240,11 +252,11 @@ nav a {
     justify-items: center;
     align-items: center;
     margin-left: 15rem;
-    margin-top: 10rem;  
+    margin-top: 10rem;
 }
 
 .delta-section {
-    margin-top: 10%;
+    margin:100px;
 }
 
 .client-section {
@@ -255,13 +267,160 @@ nav a {
 }
 
 .client-items {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-content: center;
     padding: 30px;
-    
+
+}
+
+.blog-intro {
+    margin-top: 7%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.blog-section {
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.blog-container {
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    justify-content: center;
 }
 
 
+.blog-container hr {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 
+.blog-1 {
+    padding: 20px;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/businesswoman.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-content: end;
+    background-size: 100% 100%;
+
+}
+
+.blog-2 {
+    padding: 20px;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/work.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-content: end;
+    background-size: 100% 100%;
+}
+
+.blog-3 {
+    padding: 20px;
+    background-image:  linear-gradient(rgba(187, 164, 164, 0.5), rgba(0, 0, 0, 0.212)), url(../images/yoga.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-content: end;
+    background-size: 100% 100%;
+}
+
+.blog-container a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+    font-size: medium;
+    font-weight: 600;
+}
+
+.blog-container p {
+    color: white;
+    padding: 5px;
+}
+
+.meta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-section {
+    margin-bottom: 10%;
+}
+
+.gallery {
+width: 100%;
+}
+
+.gallery-container {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer {
+    background-color: black;
+
+}
+
+.ft-a {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(100, 97, 97);
+}
+
+.ft-a p{
+    margin: 30px;
+    font-family: "Poppins";
+    font-size: medium;
+    font-weight: 600;
+}
+ 
+.ft-a button {
+    padding: 15px;
+    font-family: "Poppins";
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+    border: none;
+    margin: 30px;
+}
+
+.ft-bottom {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-content: center;
+    margin-bottom: 30px;
+
+
+}
+
+.ft-bottom a{
+    color: white;
+    text-decoration: none;
+}
+
+.ft-bottom h2 {
+    color: gray;
+    font-size: medium;
+}
+
+.cp {
+    color: gray;
+    width: 50%;
+    margin-left: 100px;
+    /* margin-right: 100px; */
+}
